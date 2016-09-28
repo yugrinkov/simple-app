@@ -1,0 +1,30 @@
+{
+  "name": "simpleapp",
+  "description": "Boilerplate app",
+  "main": "index.js",
+  "authors": [
+    "Yuri Grynkov"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "underscore": "^1.8.3",
+    "backbone": "^1.3.2",
+    "bootstrap": "~3.3.7"
+  }
+}

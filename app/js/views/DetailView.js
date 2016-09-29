@@ -79,9 +79,7 @@ module.exports = Backbone.View.extend({
     },
 
     onBackBtnClick: function(e) {
-        Backbone.history.navigate('/', {
-            trigger: true
-        });
+        window.history.back();
     },
 
     onSaveBtnClick: function(e) {
